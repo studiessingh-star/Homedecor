@@ -1,0 +1,27 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+#outer{
+    /* height:200px;
+    width:200px; */
+    border:5px solid black;
+    display:inline-block;
+    border-radius:10px 10px 0 0;
+    box-shadow:2px 5px 8px rgb(0, 0, 0);
+    margin-left:500px;
+     margin-bottom:500px;
+    transition: 0.2s;
+    /* transition-timing-function: ease-in; */
+
+    margin-top:200px;
+   
+}
+.description{
+    padding: 20px;
+}
+
+#outer:hover{
+     box-shadow:4px 16px 30px rgb(255, 183, 0);
+      transform:translateY(-10px);
+}
